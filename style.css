@@ -1,0 +1,146 @@
+.intro {
+  margin-left: 490px;
+  width: 250px;
+  height: 300px;
+}
+
+.pic {
+  margin-left: 200px;
+  width: 400px;
+}
+
+.picture {
+  width: 250px;
+  margin-left: 100px;
+}
+
+body {
+  background-image: url("images/lakers_court.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: gold;
+}
+
+h1 {
+  font-size: 100px;
+  text-align: center;
+  color: #552583;
+  -webkit-text-stroke-color: gold;
+  -webkit-text-stroke-width: 2px;
+}
+
+h2 {
+  color: gold;
+  text-align: center;
+  font-size: 60px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+}
+
+h3 {
+  font-size: 25px;
+  background: #552583;
+  color: gold;
+  padding: 20px;
+  border-color: gold;
+  border-style: solid;
+  border-width: 5px;
+}
+
+h4 {
+  background-color: gold;
+  width: 500px;
+  text-align: center;
+  font-size: 40px;
+  padding-left: 10px;
+  margin-left: 360px;
+  border-color: black;
+  border-style: solid;
+  border-width: 8px;
+}
+
+h6 {
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.links {
+  color: gold;
+  font-size: 15px;
+}
+
+img {
+  border-color: #552583;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.ball {
+  position: relative;
+  left: 100px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  background: gold;
+  border-radius: 50px;
+  overflow: hidden;
+  border: 5px solid #552583;
+  animation-name: bounce;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.stroke {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+  border: 5px solid black;
+}
+
+.stroke2 {
+  position: absolute;
+  border: 5px solid #552583;
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.pos1 {
+  right: 60px;
+  bottom: -25px;
+}
+
+.pos2 {
+  left: 60px;
+  bottom: -25px;
+}
+
+.pos3 {
+  top: -100px;
+  left: 48px;
+}
+
+.pos4 {
+  top: 48px;
+  left: -100px;
+}
+
+@keyframes bounce {
+  0% {
+  }
+  10% {
+    transform: scaleX(1);
+    transform: scaleY(1);
+  }
+  50% {
+    top: 300px;
+    transform: scaleX(1.7);
+    transform: scaleY(0.5);
+  }
+  100% {
+    top: 50px;
+  }
+}
